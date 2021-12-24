@@ -1,0 +1,10 @@
+Package: tetheringtoolset
+Version: 1.6.4
+Depends: gphoto2, libcanberra-gtk-module, python3-wxgtk4.0
+Section: custom
+Priority: optional
+Architecture: all
+Essential: no
+Installed-Size: 1024
+Maintainer: BA <scrappy762@protonmmail.com>
+Description: Set of scripts for Tethering
