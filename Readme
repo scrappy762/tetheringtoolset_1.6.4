@@ -1,0 +1,3 @@
+tetheringtoolset_1.6.4 is an opensource thethering suite made for Debian Linux platforms. This application allows you to USB Tehter, Wifi tether (certain models), 
+and choose where you save the files. This application also allows the user to view the pcitures as they are taken, and download all photos from camera to a certain file. 
+The tetheringtoolset is based on gphoto2 and the associated libraries. 
