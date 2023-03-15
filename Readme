@@ -1,13 +1,13 @@
-tetheringtoolset_1.6.4 is an opensource thethering suite made from the Gphoto2 tools. Tetheringtoolset was created on Debian Linux platforms. This application allows you to connect your camera (phone, DSLR, Mirrorless, etc..)
-via USB, to tether your camera to your linux distribution. This software allows you to choose where you save the files and weather to Tether (see photos as you shoot) or just dowload. This application also allows the user to view the pcitures as they are taken, and download all photos from camera to a certain file. 
-The tetheringtoolset is based on gphoto2 and the associated libraries and offers:
+Program script that uses gphoto2 to perform tethered shooting and downloading photos from a camera, either through Wi-Fi or USB connection.
+The script takes an argument to determine which function should be executed.
 
-USB - tether to specific file 
-USB - Download this feature looks at your direcorty and starts downloading files where you left off in order to not duplicate files. 
-USB - tether with displaying (via default photo app) on screen
+Here's a brief explanation of the script's functions:
 
-Wifi - Download
-Wifi - Tether to specific directory 
-wifi - Tehter with displaying photo on screen
-
-Thease options help me with workflow as a photographer without having to pay for expensive applications. And of COURSE KEEP IT OPEN SOURCE. 
+tethered_wifi: Performs tethered shooting over Wi-Fi and stores photos in the specified folder.
+tethered_wifi_beta: Continuously checks for a connection with the camera and performs tethered shooting over Wi-Fi when connected.
+tethered_wifi_hook: Performs tethered shooting over Wi-Fi using a hook script.
+tethered_usb: Performs tethered shooting over USB and stores photos in the specified folder.
+tethered_usb_hook: Performs tethered shooting over USB using a hook script.
+download_wifi: Continuously checks for a connection with the camera and downloads all photos from the camera over Wi-Fi, skipping existing files.
+download_usb: Downloads all photos from the camera over USB, skipping existing files.
+The script checks the given argument and calls the corresponding function. If there's no argument or the argument is invalid, the script exits.
